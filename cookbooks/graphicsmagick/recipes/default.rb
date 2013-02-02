@@ -2,9 +2,9 @@ bash "install_graphics_magick" do |variable|
 	user "root"
 	cwd "/tmp"
 	code <<-EOH
-	wget ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/1.3/GraphicsMagick-1.3.15.tar.gz
-	tar -xvf GraphicsMagick-1.3.15.tar.gz
-	cd GraphicsMagick-1.3.15
+	wget ftp://ftp.graphicsmagick.org/pub/GraphicsMagick/GraphicsMagick-LATEST.tar.gz
+	tar -xvf GraphicsMagick-LATEST.tar.gz
+	cd GraphicsMagick-LATEST
 	./configure
 	make
 	sudo make install
