@@ -12,4 +12,4 @@
 	url = git://github.com/opscode-cookbooks/git.git
 [submodule "cookbooks/nodejs"]
 	path = cookbooks/nodejs
-	url = git://github.com/jmonster/nodejs-cookbook.git
+	url = git@github.com:jmonster/nodejs-cookbook.git
