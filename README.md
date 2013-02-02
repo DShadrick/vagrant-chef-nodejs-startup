@@ -14,6 +14,6 @@ Usage
 
 Clone it and launch Vagrant:
 
-    git clone --recursive git://github.com/bitlyfied/vagrant-chef-nodejs-startup.git my-project
-    cd my-project
+    git clone --recursive git@github.com:jmonster/vagrant-chef-nodejs-startup.git vagrantjs
+    cd vagrantjs
     vagrant up
