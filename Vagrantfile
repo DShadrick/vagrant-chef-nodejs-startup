@@ -3,9 +3,8 @@
 
 
 Vagrant::Config.run do |config|
-  config.vm.forward_port 80, 8080
-  config.vm.forward_port 443, 4040
   config.vm.forward_port 3000, 3000
+  config.vm.forward_port 51050, 51050
 
   # make symlinks work in shared folder
   config.vm.customize ["setextradata", :id, "VBoxInternal2/SharedFoldersEnableSymlinksCreate/v-root", "1"]
